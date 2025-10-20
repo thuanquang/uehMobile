@@ -27,7 +27,7 @@
         android:padding="16dp"
         android:background="#EEEEEE">
 
-        <!-- "To" field (email recipient) -->
+        <!-- "To" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
-        <!-- "Subject" field -->
+        <!-- "Subject" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
-        <!-- "Message" field (multi-line) -->
+        <!-- "Message" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Send button at bottom -->
+        <!-- Send -->
         <Button
             android:id="@+id/buttonSend"
             android:layout_width="wrap_content"

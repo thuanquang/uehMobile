@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin chào tung\nHãy đăng ký môn học"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCourseList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Danh sách môn đăng ký"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCPlusPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lập trình C++" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAS" />
+
+    <CheckBox
+        android:id="@+id/checkBoxWebDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xử lý Ứng dụng" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đồ Án Thực Tế" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ĐĂNG KÝ" />
+
+    <TextView
+        android:id="@+id/textViewRegistrationStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Tình trạng đăng ký"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSelectedCourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="#00AA00" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="XÁC NHẬN" />
+
+</LinearLayout>

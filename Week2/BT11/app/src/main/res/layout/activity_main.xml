@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- Top section -->
+    <!-- Top section with title bar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
             android:textSize="18sp"/>
     </LinearLayout>
 
-    <!-- BUTTONS -->
+    <!-- Main content area (nested LinearLayout inside) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -28,7 +28,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- BUTTON 1 - 1/4 -->
+        <!-- BUTTON 1 - Takes 1/3 of available space -->
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
@@ -37,16 +37,16 @@
             android:text="BUTTON 1"
             android:layout_margin="8dp"/>
 
-        <!-- BUTTON 2 - 3/4 -->
+        <!-- BUTTON 2 - Takes 2/3 of available space (larger) -->
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:text="BUTTON 2"
             android:layout_margin="8dp"/>
 
-        <!-- BUTTON 3 and BUTTON 4-->
+        <!-- Bottom row with BUTTON 3 and BUTTON 4 side by side -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -57,7 +57,7 @@
                 android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="3"
+                android:layout_weight="1"
                 android:text="BUTTON 3"
                 android:layout_margin="8dp"/>
 
