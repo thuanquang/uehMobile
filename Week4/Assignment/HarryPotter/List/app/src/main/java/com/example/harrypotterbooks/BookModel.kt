@@ -1,4 +1,7 @@
 package com.example.harrypotterbooks
 
-class BookModel {
-}
+data class BookModel (
+    val imgBook: Int,
+    val urlBook: String,
+    val txtBookName: String
+    )

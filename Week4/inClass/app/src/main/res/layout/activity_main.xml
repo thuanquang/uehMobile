@@ -12,8 +12,10 @@
         android:id="@+id/gvBook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
         android:numColumns="2"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbarAlwaysDrawHorizontalTrack="true" />
+        android:verticalSpacing="10dp" />
 
 </LinearLayout>
