@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="Lê Viết Dương"
+            android:text="Trần Thuận Quang"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textStyle="bold"
