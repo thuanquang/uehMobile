@@ -11,10 +11,6 @@ import com.bumptech.glide.Glide
 class BookListView (val activity: Activity, val listBook: List<BookModel>) :
     ArrayAdapter<BookModel>(activity, R.layout.item_book, listBook) {
 
-    override fun getCount(): Int {
-        return listBook.size
-    }
-
     override fun getView(
         position: Int,
         convertView: View?,
@@ -27,7 +23,6 @@ class BookListView (val activity: Activity, val listBook: List<BookModel>) :
         if (listBook[position].imgBook != 0) {
             imgBook.setImageResource(listBook[position].imgBook)
         } else {
-            //Glide.with(activity).load(listBook[position].urlBook).into(imgBook)
             Glide.with(activity).load(listBook[position].urlBook).into(imgBook)
         }
 
@@ -36,4 +31,4 @@ class BookListView (val activity: Activity, val listBook: List<BookModel>) :
 
         return view
     }
-    }
+}

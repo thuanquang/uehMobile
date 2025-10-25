@@ -1,10 +1,13 @@
 package com.example.harrypotterbooks
 
 import android.content.Intent
+import android.net.LinkAddress
 import android.os.Bundle
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.LinearLayoutManager
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,20 +27,9 @@ class MainActivity : AppCompatActivity() {
         listBook.add(BookModel(R.drawable.harrypotter8, "", "Harry Potter - tập 8"))
 
         //Gắn adapter
-        val lvBook = findViewById<ListView>(R.id.lvBook)
-        lvBook.adapter = BookListView(this, listBook)
-
-        //Click event
-        lvBook.setOnItemClickListener { parent, view, position, id ->
-            val bundle = Bundle()
-            bundle.putInt("imgBook", listBook[position].imgBook)
-            bundle.putString("txtBookName", listBook[position].txtBookName)
-            bundle.putString("urlBook", listBook[position].urlBook)
-
-            val intent = Intent(this, DetailActivity::class.java)
-            intent.putExtra("bookData", bundle)
-            startActivity(intent)
-        }
+        val rvBook = findViewById<RecyclerView>(R.id.rvBook)
+        rvBook.layoutManager = LinearLayoutManager(this)
+        rvBook.adapter = BookRecyclerView(this, listBook)
     }
 }
 
