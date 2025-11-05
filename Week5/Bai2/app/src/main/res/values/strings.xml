@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bai2 Form Validation</string>
+    <string name="app_description">Form Validation with Fragments and Custom Spinner</string>
+    
+    <!-- Form field labels -->
+    <string name="label_username">Username</string>
+    <string name="label_date">Date</string>
+    <string name="label_email">Email</string>
+    <string name="label_idcard">ID Card</string>
+    <string name="label_phone">Phone</string>
+    
+    <!-- Buttons -->
+    <string name="button_update">Update</string>
+    <string name="button_clear">Clear</string>
+    
+    <!-- Validation messages -->
+    <string name="error_username_empty">Username is required</string>
+    <string name="error_email_invalid">Email is invalid</string>
+    <string name="error_phone_invalid">Phone number is invalid</string>
+    <string name="error_idcard_invalid">ID Card number is invalid</string>
+    <string name="error_date_empty">Please select a date</string>
+    
+    <!-- Hints -->
+    <string name="hint_username">Enter your username</string>
+    <string name="hint_email">Enter your email address</string>
+    <string name="hint_phone">Enter your phone number</string>
+    <string name="hint_idcard">Enter your ID card number</string>
+</resources>

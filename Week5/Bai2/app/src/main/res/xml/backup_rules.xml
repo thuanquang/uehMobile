@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   Sample backup rules file; uncomment and customize as needed.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices running API 31 +
+        (when DATA_PROTECTION_LEVEL is FullBackupContent).
+-->
+
+    <!-- Exclude specific shared preferences that contain GCM registration IDs -->
+    <!-- <exclude domain="sharedpref" path="com.example.ExampleSharedPreferences.xml" /> -->
+
+    <!-- Exclude all shared preferences files -->
+    <!-- <exclude domain="sharedpref" path="." /> -->
+    <!-- Exclude all database files -->
+    <!-- <exclude domain="database" path="." /> -->
+    <!-- Exclude all file types in the cache directory -->
+    <!-- <exclude domain="file" path="cache" /> -->
+    <!-- Exclude files in the "temp" folder (file path: /cache/temp) -->
+    <!-- <exclude domain="file" path="cache/temp" /> -->
+
+    <!-- Include everything else: -->
+    <include domain="file" path="." />
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+    <include domain="cache" path="." />
+
+</full-backup-content>
