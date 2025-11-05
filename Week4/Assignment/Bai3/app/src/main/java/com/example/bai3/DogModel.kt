@@ -1,4 +1,6 @@
 package com.example.bai3
 
-class DogModel {
-}
+data class DogModel (
+    val imgDog: Int,
+    val dogName: String
+)
