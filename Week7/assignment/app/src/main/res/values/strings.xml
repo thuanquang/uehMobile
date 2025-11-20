@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Schedule Manager</string>
+    <string name="empty_schedule">No schedules yet. Click "Add Schedule" to create one.</string>
+    <string name="add_schedule">Add Schedule</string>
+    <string name="schedule_title">Schedule Management</string>
+</resources>
+

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.week7assignment.app-mergeDebugResources-40:/layout/dialog_add_schedule.xml",
+        "source": "com.example.week7assignment.app-main-43:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "com.example.week7assignment.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.week7assignment.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.week7assignment.app-mergeDebugResources-40:/layout/dialog_delete_confirm.xml",
+        "source": "com.example.week7assignment.app-main-43:/layout/dialog_delete_confirm.xml"
+    },
+    {
+        "merged": "com.example.week7assignment.app-mergeDebugResources-40:/layout/item_schedule.xml",
+        "source": "com.example.week7assignment.app-main-43:/layout/item_schedule.xml"
+    }
+]
