@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable harrypotter1
+drawable harrypotter2
+drawable harrypotter3
+drawable harrypotter4
+drawable harrypotter5
+drawable harrypotter6
+drawable harrypotter7
+drawable harrypotter8
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id gvBook
+id imgBook
+id main
+id txtBookName
+layout activity_detail
+layout activity_main
+layout item_book
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyApplication
+style Theme.MyApplication
+xml backup_rules
+xml data_extraction_rules
